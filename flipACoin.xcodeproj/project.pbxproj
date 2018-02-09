@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B45357A202C755400698A07 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B453579202C755400698A07 /* ViewController2.swift */; };
 		9B6E80DD2012041200EF7B97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6E80DC2012041200EF7B97 /* AppDelegate.swift */; };
 		9B6E80DF2012041200EF7B97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6E80DE2012041200EF7B97 /* ViewController.swift */; };
 		9B6E80E22012041200EF7B97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B6E80E02012041200EF7B97 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B453579202C755400698A07 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		9B6E80D92012041200EF7B97 /* flipACoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flipACoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B6E80DC2012041200EF7B97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B6E80DE2012041200EF7B97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				9B8346BA2023CEC500D64273 /* coinflip.wav */,
 				9B6E80DC2012041200EF7B97 /* AppDelegate.swift */,
 				9B6E80DE2012041200EF7B97 /* ViewController.swift */,
+				9B453579202C755400698A07 /* ViewController2.swift */,
 				9B6E80E02012041200EF7B97 /* Main.storyboard */,
 				9B6E80E32012041200EF7B97 /* Assets.xcassets */,
 				9B6E80E52012041200EF7B97 /* LaunchScreen.storyboard */,
@@ -150,6 +153,7 @@
 			files = (
 				9B6E80DF2012041200EF7B97 /* ViewController.swift in Sources */,
 				9B6E80DD2012041200EF7B97 /* AppDelegate.swift in Sources */,
+				9B45357A202C755400698A07 /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -31,6 +31,10 @@ class ViewController: UIViewController {
         coinImageview.image = coinImages[0]
         coinText.text = "KRONA"
         
+        let leftSwipe = UISwipeGestureRecognizer(target: self, action: #selector(swipeAction(swipe:)))
+        leftSwipe.direction = UISwipeGestureRecognizerDirection.left
+        self.view.addGestureRecognizer(leftSwipe)
+        
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -56,6 +60,8 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
     
     
     @IBAction func playSound(_ sender: UIButton) {
@@ -127,6 +133,10 @@ class ViewController: UIViewController {
         
         audioPlayer.play()
     }
-
+    
+    @objc func swipeAction(swipe:UISwipeGestureRecognizer) {
+        performSegue(withIdentifier: "goRight", sender: self)
+    }
+    
 }
 

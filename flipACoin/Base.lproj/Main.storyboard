@@ -54,6 +54,7 @@
                     <connections>
                         <outlet property="coinImageview" destination="YUs-Xn-5Pv" id="9u0-OQ-prk"/>
                         <outlet property="coinText" destination="NEB-QC-LaQ" id="nfp-4R-tSI"/>
+                        <segue destination="Unr-is-vj1" kind="show" identifier="goRight" id="BpV-dC-UDb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -61,10 +62,10 @@
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller2-->
         <scene sceneID="qfP-Pi-SzK">
             <objects>
-                <viewController id="Unr-is-vj1" sceneMemberID="viewController">
+                <viewController id="Unr-is-vj1" customClass="ViewController2" customModule="flipACoin" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Se1-Oo-Hir">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -77,7 +78,7 @@
                                 <color key="tintColor" red="1" green="0.67769555349999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="SINGLA">
                                     <color key="titleColor" red="0.58072251080000004" green="0.066734083" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="titleShadowColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
                                     <action selector="playSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1uH-zc-DmH"/>
@@ -95,9 +96,12 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="1" green="0.81498982883955373" blue="0.91891109827271611" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="Oy9-xc-VqQ"/>
                     </view>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="goLeft" id="Gip-nx-Pgk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nyi-kg-S9H" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
